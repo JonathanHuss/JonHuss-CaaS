@@ -1,0 +1,25 @@
+﻿@model JonHuss_CaaS.Embed.Models.Home.HomeViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div id="bot">
+    <div id="message-window">
+    </div>
+
+    <div id="message-box">
+        <textarea onkeyup="KeyUp(event)"></textarea>
+        <input type="button" onclick="SendMessage()" value="Send" />
+    </div>
+</div>
+
+@section styles {
+    <link href="@Url.Content("~/Content/" + Model.Style + ".css")" rel="stylesheet" />
+
+}
+
+@section scripts {
+    <script src="~/Scripts/Home/Home.js"></script>
+}

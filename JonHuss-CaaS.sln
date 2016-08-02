@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JonHuss-CaaS.UserInterface", "JonHuss-CaaS\JonHuss-CaaS.UserInterface.csproj", "{766E51A4-83BF-4B77-A94C-2250557276F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JonHuss-CaaS.DataModel", "JonHuss-CaaS.DataModel\JonHuss-CaaS.DataModel.csproj", "{B9E42FA4-49C2-4F8F-AC82-B7A28685A64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JonHuss-CaaS.Bot", "JonHuss-CaaS.Bot\JonHuss-CaaS.Bot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JonHuss-CaaS.Embed", "JonHuss-CaaS.Embed\JonHuss-CaaS.Embed.csproj", "{5BB13533-2EDB-4C21-92AE-73AC15093F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JonHuss-CaaS.DemoSite", "JonHuss-CaaS.DemoSite", "{7F14F736-7F0A-425C-A048-F3EBA8244535}"
+	ProjectSection(SolutionItems) = preProject
+		chat.html = chat.html
+		index.html = index.html
+		Raining.PNG = Raining.PNG
+		Site.css = Site.css
+		Snowing.PNG = Snowing.PNG
+		Sunny.PNG = Sunny.PNG
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{766E51A4-83BF-4B77-A94C-2250557276F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766E51A4-83BF-4B77-A94C-2250557276F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766E51A4-83BF-4B77-A94C-2250557276F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766E51A4-83BF-4B77-A94C-2250557276F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E42FA4-49C2-4F8F-AC82-B7A28685A64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E42FA4-49C2-4F8F-AC82-B7A28685A64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E42FA4-49C2-4F8F-AC82-B7A28685A64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E42FA4-49C2-4F8F-AC82-B7A28685A64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB13533-2EDB-4C21-92AE-73AC15093F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB13533-2EDB-4C21-92AE-73AC15093F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB13533-2EDB-4C21-92AE-73AC15093F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB13533-2EDB-4C21-92AE-73AC15093F73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9e2f6d4d62424affaff78ea878c0ec21" Name="Diagram1" ZoomLevel="98">
+        <EntityTypeShape EntityType="CaaSModel.AspNetRole" Width="1.5" PointX="1.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.AspNetUserClaim" Width="1.5" PointX="5.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.AspNetUserLogin" Width="1.5" PointX="1.625" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.AspNetUser" Width="1.5" PointX="3.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.Condition" Width="3.25" PointX="5.625" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.ConversationTemplate" Width="1.5" PointX="5.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.Display" Width="1.5" PointX="10.625" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.PayloadProperty" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.Question" Width="1.5" PointX="12.375" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.ResponseOption" Width="1.5" PointX="13.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.ResponseType" Width="1.5" PointX="14.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.ServiceCall" Width="1.5" PointX="9" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CaaSModel.Step" Width="3.25" PointX="8.375" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="CaaSModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_ConversationTemplate_ConversationTemplate" ManuallyRouted="false" ></AssociationConnector>
+        <AssociationConnector Association="CaaSModel.FK_Condition_NextStepWhenFalse" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_Condition_NextStepWhenTrue" ManuallyRouted="true" >
+          <ConnectorPoint PointX="9.4353909486153373" PointY="3.6244921874999996" />
+          <ConnectorPoint PointX="9.4353909486153373" PointY="4.6903936258289809" />
+          <ConnectorPoint PointX="7.6673610367132223" PointY="4.6903936258289809" />
+          <ConnectorPoint PointX="7.6673610367132223" PointY="5.75" />
+        </AssociationConnector>
+        <AssociationConnector Association="CaaSModel.FK_Step_ConversationTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_Step_PayloadProperty" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_Question_ResponseType" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_ResponseOption_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_ResponseOption_NextStep" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.FK_Step_Step" ManuallyRouted="false" />
+        <AssociationConnector Association="CaaSModel.AspNetUserRoles" ManuallyRouted="false" />
+        <InheritanceConnector EntityType="CaaSModel.Condition" />
+        <InheritanceConnector EntityType="CaaSModel.Display" />
+        <InheritanceConnector EntityType="CaaSModel.Question" />
+        <InheritanceConnector EntityType="CaaSModel.ServiceCall" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

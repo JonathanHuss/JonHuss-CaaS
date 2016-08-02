@@ -1,0 +1,76 @@
+﻿
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+#bot {
+    width: 100%;
+    height: 100%;
+}
+
+#message-window {
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    border: solid 1px black;
+}
+
+#message-box {
+    height: 15%;
+    border: solid 1px black;
+}
+
+#message-box textarea {
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#message-box input[type=button] {
+    width: 20%;
+    height: 100%;
+    background-color: darkblue;
+    color: white;
+    float: right;
+}
+
+.message {
+    clear: both;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+.message-content {
+    padding: 8px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.me {
+    float:right;
+    background-color: lightgray;
+}
+
+.bot {
+    background-color:Highlight;
+    color: white;
+}
+
+.messageRow {
+    width: 100%;
+    display: inline-block;
+}

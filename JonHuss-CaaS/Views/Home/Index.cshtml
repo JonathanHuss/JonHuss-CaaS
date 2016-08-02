@@ -1,0 +1,38 @@
+﻿@using JonHuss_CaaS.DataModel;
+@model JonHuss_CaaS.UserInterface.Models.Home.HomeViewModel
+
+@{
+    ViewBag.Title = "Home";
+}
+
+
+<h1>
+    Conversation Templates
+    <span class="createNewButton button">+ Create New</span>
+</h1>
+
+<div id="templateList">
+    @foreach (ConversationTemplate template in Model.ConversationTemplates)
+    {
+        <div>
+            <span class="templateName">@template.Name</span>
+            <span class="embedButton button" onclick="OpenEmbedDialog('@template.UserId', '@template.ConversationWebID')">Embed</span>
+            <span class="editButton button">@Html.ActionLink("Edit", "Index", "Edit", new { conversationID = @template.ID }, null)</span>
+            <span class="deleteButton button">Delete</span>
+        </div>
+    }
+</div>
+
+<div id="embedDialog">
+    <h3>Style</h3>
+    <input type="radio" name="style" value="WebChat" checked="checked" /> Web Chat<br />
+    <input type="radio" name="style" value="SmallOverlay" /> Small Overlay<br />
+
+    <h3>Please copy the following HTML for your site:</h3>
+    <textarea id="embedText"></textarea>
+
+</div>
+
+@section pageScripts {
+    <script src="~/Scripts/Home/Home.js"></script>
+}

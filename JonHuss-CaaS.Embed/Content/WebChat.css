@@ -1,0 +1,15 @@
+﻿body {
+    height: 800px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.body-content {
+    padding: 0px;
+}
+
+.containt {
+    padding: 0px;
+}

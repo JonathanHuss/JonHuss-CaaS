@@ -1,0 +1,58 @@
+body {
+    background-color:lightsteelblue;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    width: 1200px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#locationContainer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#locationOne {
+    background-image: url("Raining.PNG")
+}
+
+#locationTwo {
+    background-image: url("Snowing.PNG")
+}
+
+#locationThree {
+    background-image: url("Sunny.PNG");
+}
+
+.locationBox {
+    width: 24%;
+    margin: 45px;
+    padding: 10px;
+    height: 275px;
+    float: left;
+    background-size: cover;
+    border: 1px solid gray;
+    text-align: right;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+#bodyText {
+    padding: 15px;
+}
+
+#webChat {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 400px;
+}
